@@ -84,7 +84,7 @@ iframe {
   overflow: hidden;
   position: relative;
   display: flex;
-  /* remove flex-direction if present */
+
   border-radius: 3px;
 }
 
