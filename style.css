@@ -115,3 +115,57 @@ iframe {
   95% { transform: translateY(-1200px); }
   100% { transform: translateY(0); }
 }
+
+@media (max-width: 700px) {
+  .content {
+    width: 90vw;
+    max-height: 100vh;
+    min-height: 100vh;
+    border-width: 5px;
+    border-radius: 0;
+    margin-left: 0;
+    padding: 0;
+  }
+
+
+  #mydiv {
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: auto;
+    margin: 0 auto;
+    width: 90vw;
+    border-radius: 0;
+    border-width: 5px;
+    z-index: 99;
+  }
+    .header {
+    max-height: 100vh;
+    width: 100vw;
+    padding: 0 10px;
+  }
+
+  .form {
+    width: 80vw;
+    padding: 0 5px;
+  }
+    .header h1 {
+    font-size: 1.6em;
+    line-height: 1.1;
+  }
+
+  #countdown {
+    font-size: 2em;
+  }
+
+
+  #divimg {
+    height: 400px; /* adjust as needed for smaller screens */
+  }
+
+  .slideshow-vertical {
+    height: 400px; 
+    width: 100%;
+  }
+}
