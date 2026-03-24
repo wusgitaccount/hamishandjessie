@@ -30,7 +30,7 @@ color: #124521;
 .header {
     margin-top: 0;
     width: 100%;
-    min-height: 90vh;      /* fill the content box, but allow scrolling */
+    min-height: 100vh;      /* fill the content box, but allow scrolling */
     display: flex;
     flex-direction: column;
     justify-content: center;
