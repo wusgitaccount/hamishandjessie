@@ -125,6 +125,7 @@ iframe {
     border-radius: 0;
     margin-left: 0;
     padding: 0;
+    overflow-x: hidden;
   }
 
 
@@ -167,4 +168,15 @@ iframe {
     height: 400px; 
     width: 100%;
   }
+}
+
+a {
+  color: inherit;
+  text-decoration: underline dotted;
+  text-decoration-color: #124521;
+}
+
+a:hover {
+  text-decoration: underline;
+  text-decoration-color: #124521;
 }
