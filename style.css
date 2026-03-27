@@ -20,7 +20,7 @@ color: #124521;
     max-height: 90vh;      /* changed from min-height */
     width: 60vw;
     border: 10px solid #124521;
-    border-radius: 10px;
+    border-radius: 15px;
     border-style: double;
     overflow-y: auto;      /* allow scrolling inside the box */
     scrollbar-color: #124521 #fefdf4; /* thumb and track colors */
@@ -125,6 +125,7 @@ iframe {
     border-radius: 0;
     margin-left: 0;
     padding: 0;
+    overflow-x: hidden;
   }
 
 
@@ -167,4 +168,15 @@ iframe {
     height: 400px; 
     width: 100%;
   }
+}
+
+a {
+  color: inherit;
+  text-decoration: underline dotted;
+  text-decoration-color: #124521;
+}
+
+a:hover {
+  text-decoration: underline;
+  text-decoration-color: #124521;
 }
