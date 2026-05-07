@@ -149,6 +149,26 @@ var x = setInterval(function() {
   }
 }, 1000);
 </script>
+
+<script>
+function moveMyDiv() {
+  const mydiv = document.getElementById('mydiv');
+  const content = document.querySelector('.content');
+  const body = document.body;
+  if (window.innerWidth <= 700) {
+    if (content && mydiv && mydiv.parentNode !== content) {
+      content.insertBefore(mydiv, content.firstChild);
+    }
+  } else {
+    if (body && mydiv && mydiv.parentNode !== body) {
+      body.insertBefore(mydiv, body.firstChild);
+    }
+  }
+}
+window.addEventListener('resize', moveMyDiv);
+window.addEventListener('DOMContentLoaded', moveMyDiv);
+</script>
+
 </body>
 
 </html>
